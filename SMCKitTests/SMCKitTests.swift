@@ -213,7 +213,7 @@ class SMCKitTests: XCTestCase {
             
             // Getting these values to cross ref
             var prop = IORegistryEntryCreateCFProperty(
-                service, "IsCharging" as CFString!,
+                service, "IsCharging" as CFString?,
                 kCFAllocatorDefault,
                 0
             )
@@ -221,7 +221,7 @@ class SMCKitTests: XCTestCase {
             ASPCharging = prop?.takeUnretainedValue() as! Bool
             
             prop = IORegistryEntryCreateCFProperty(
-                service, "FullyCharged" as CFString!,
+                service, "FullyCharged" as CFString?,
                 kCFAllocatorDefault,
                 0
             )

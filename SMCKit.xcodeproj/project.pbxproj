@@ -11,7 +11,6 @@
 		4C982BE41A040CE200F4A639 /* SMC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE566A71A00A49600787F6B /* SMC.swift */; };
 		4CA091201F8C4FCC00623AEF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4CA0911F1F8C4FCC00623AEF /* README.md */; };
 		4CA091231F8C517E00623AEF /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4CA091211F8C517E00623AEF /* LICENSE */; };
-		4CA091241F8C517E00623AEF /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 4CA091221F8C517E00623AEF /* Makefile */; };
 		4CDDA6A01AEC0D010037CE7B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDDA69F1AEC0D010037CE7B /* main.swift */; };
 		4CDDA6A41AEC0D580037CE7B /* SMC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE566A71A00A49600787F6B /* SMC.swift */; };
 		4CE566911A00A48800787F6B /* SMCKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CE566901A00A48800787F6B /* SMCKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -306,11 +305,11 @@
 					};
 					4CE5668A1A00A48800787F6B = {
 						CreatedOnToolsVersion = 6.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1020;
 					};
 					4CE566951A00A48800787F6B = {
 						CreatedOnToolsVersion = 6.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -380,7 +379,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CA091241F8C517E00623AEF /* Makefile in Sources */,
 				4CE566A81A00A49600787F6B /* SMC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -583,8 +581,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -604,8 +601,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "beltex.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -625,8 +621,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "beltex.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -642,8 +637,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "beltex.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
