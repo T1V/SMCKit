@@ -348,7 +348,7 @@ class SMCKitTests: XCTestCase {
             name = String(cString: cString)
         }
 
-        ptr.deallocate(capacity: 1)
+        //ptr.deallocate(capacity: 1)
 
         return name
     }

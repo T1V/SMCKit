@@ -155,7 +155,8 @@
 				4CE566901A00A48800787F6B /* SMCKit.h */,
 				4CE5668E1A00A48800787F6B /* Supporting Files */,
 			);
-			path = SMCKit;
+			name = SMCKit;
+			path = Sources/SMCKit;
 			sourceTree = "<group>";
 		};
 		4CE5668E1A00A48800787F6B /* Supporting Files */ = {
@@ -172,7 +173,8 @@
 				4CE5669D1A00A48800787F6B /* SMCKitTests.swift */,
 				4CE5669B1A00A48800787F6B /* Supporting Files */,
 			);
-			path = SMCKitTests;
+			name = SMCKitTests;
+			path = Tests/SMCKitTests;
 			sourceTree = "<group>";
 		};
 		4CE5669B1A00A48800787F6B /* Supporting Files */ = {
@@ -573,7 +575,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = SMCKit/Info.plist;
+				INFOPLIST_FILE = Sources/SMCKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "-D DEBUG";
@@ -595,7 +597,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = SMCKit/Info.plist;
+				INFOPLIST_FILE = Sources/SMCKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "beltex.$(PRODUCT_NAME:rfc1034identifier)";
